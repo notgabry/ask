@@ -2,7 +2,7 @@
      
      
 #  `Ask`
-#### ✨ Read When Ask for Help
+#### ✨ Read When Asking for Help
  
 </div>
 
