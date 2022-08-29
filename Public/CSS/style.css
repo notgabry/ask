@@ -23,10 +23,6 @@
   --bg-color: #191724;
   --text-color: #e0def4;
   --link-color: #8be9fd;
-  --visited: #bd93f9;
-  --blockquote: #bd93f9;
-  --blockquote-bg: #414558;
-  --hover: #ff80bf;
   --grey: #414558;
   --scroll-base: #6e6a86;
 }
@@ -92,15 +88,6 @@ hr {
 a {
   text-decoration: underline;
   color: var(--link-color);
-}
-
-a:hover,
-a:visited:hover {
-  color: var(--hover);
-}
-
-a:visited {
-  color: var(--visited);
 }
 
 a.link-grey {
