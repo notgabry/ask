@@ -19,7 +19,6 @@
   --white: #f2f2f2;
   --code: #403d52;
   --code-border: #21202e;
-  --pre: #252525;
   --bg-color: #191724;
   --text-color: #e0def4;
   --link-color: #8be9fd;
@@ -112,7 +111,8 @@ header {
 }
 
 p {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-left: 10px;
 }
 
 text-2xl {
@@ -144,6 +144,30 @@ text-2xl {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.h2List {
+  margin-left: 10px
+}
+
+ul, ol {
+  padding: 0 0 0 2rem;
+  list-style-position: outside;
+}
+
+ul[style *= "list-style-type: none;"] {
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+#smallContainer {
+  background-color: var(--scroll-base);
+  border-radius: 15px;
+  padding-bottom: 1px;
+  padding-top: 8px;
 }
 
 footer {
