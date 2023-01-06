@@ -1,3 +1,5 @@
+twemoji.parse(document.body)
+
 const frame = () => {
     confetti({
       particleCount: 250,
@@ -14,9 +16,9 @@ const frame = () => {
       spread: 55,
       origin: { x: 1, y: 1 }
     })
-  }
+}
   
-  (async () => {
+(async () => {
     let delay = false
     const canvasConfetti = document.createElement('canvas')
     let one = document.querySelectorAll('img.emoji')
@@ -40,5 +42,3 @@ const frame = () => {
       useWorker: true
     })
 })()
-
-twemoji.parse(document.body)
