@@ -2,14 +2,13 @@
      
      
 #  `Ask`
-#### ✨ Read When Asking for Help
+✨ Read before asking
  
 </div>
 
-<hr>
 
 ### 🥤 Palette
-We used the [Rosè Pine](https://rosepinetheme.com) palette.
+I used the [Rosè Pine](https://rosepinetheme.com) palette.
 
 ### 🌸 Hosting
-We used [Vercel](https://vercel.com).
+I used [Vercel](https://vercel.com).
